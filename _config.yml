@@ -2,3 +2,5 @@ title: Xplorer 2019
 description: An arcade game in 1kB of JavaScript
 plugins:
   - jemoji
+theme: jekyll-theme-cayman
+show_downloads: false
