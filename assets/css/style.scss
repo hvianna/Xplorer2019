@@ -1,0 +1,16 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@media screen and (min-width: 80em) {
+	.main-content {
+		max-width: 80rem;
+	}
+}
+
+.main-content pre code,
+.main-content pre tt {
+	white-space: pre-wrap;
+	word-break: break-all;
+}

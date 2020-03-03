@@ -1,10 +1,10 @@
 
-Use **A** & **Z** keys to move ship, **Spacebar** to fire.
-Mind your energy! Fly closer to the ground to recharge. How far can you get?
+<p align="center">Use **A** & **Z** keys to move ship, **Spacebar** to fire.<br>
+Mind your energy! Fly closer to the ground to recharge. How far can you get?</p>
 
 <canvas style="width:100%; height:auto;"></canvas>
 
-<button id="fs-button">Fullscreen</button>
+<p align="center"><button id="fs-button">Play in fullscreen</button></p>
 
 <script>
 // these are provided by the JS1k shim
