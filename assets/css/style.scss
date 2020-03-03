@@ -3,10 +3,24 @@
 
 @import "{{ site.theme }}";
 
+@media screen and (min-width: 64em) {
+	.page-header {
+		padding: 3.5rem;
+	}
+
+	.project-tagline {
+		font-size: 1.5rem;
+	}
+}
+
 @media screen and (min-width: 80em) {
 	.main-content {
 		max-width: 80rem;
 	}
+}
+
+button {
+	padding: .5rem 1rem;
 }
 
 .main-content pre code,
