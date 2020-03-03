@@ -1,5 +1,5 @@
 
-<p align="center">Use **A** & **Z** keys to move ship, **Spacebar** to fire.<br>
+<p align="center">Use <strong>A</strong> & <strong>Z</strong> keys to move ship, <strong>Spacebar</strong> to fire.<br>
 Mind your energy! Fly closer to the ground to recharge. How far can you get?</p>
 
 <canvas style="width:100%; height:auto;"></canvas>
@@ -30,7 +30,7 @@ B=_=>{for(t in _)this[t[0]+t[6]]=t};B(N=new AudioContext);B(O=N[cO](L=localStora
 - Full HD resolution graphics running at 60fps
 - Increasing difficulty - cave gets narrower and bats become more aggressive over time
 - Minimalistic sound effects
-- Random colored crystals on every run
+- Random colored cave crystals on every run
 - Persistent high score, saved on your browser's local storage
 
 ### Source code:
