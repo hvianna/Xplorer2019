@@ -81,7 +81,7 @@ And with a few extra bytes, I could save the high score permanently on the brows
 
 <figure class="align-right">
 	<img src="img/XplorerJS1k.gif">
-	<figcaption>Final version of Xplorer 2019</figcaption>
+	<figcaption>The final version submitted to JS1k 2019</figcaption>
 </figure>
 
 The game had already improved a lot, but I was still unhappy with the cave’s blocky appearance. I wanted it to look more organic,
@@ -99,9 +99,11 @@ All optimizations were done manually, using every code golfing technique I have 
 
 I hope you enjoy the game and maybe learn something new as well.
 
-<p class="big"><a href="index.html">Play the game!</a></p>
+<p class="big"><a href="index.html">▶ Play the game!</a></p>
 
-<p class="big"><a href="https://js1k.com/2019-x/details/4188">See the entry on JS1k website</a> (includes commented source code)</p>
+[▶ View the entry on JS1k website](https://js1k.com/2019-x/details/4188)
+
+[▶ View the commented source code on GitHub](https://github.com/hvianna/Xplorer2019/blob/master/src/xplorer2019.js)
 
 ### References
 

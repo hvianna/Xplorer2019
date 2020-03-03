@@ -12,17 +12,15 @@
 		font-size: 1.5rem;
 	}
 
-	figure.align-left,
-	figure.align-right {
-		max-width: 30%;
-	}
 	figure.align-left {
 		float: left;
 		margin-left: 0;
+		max-width: 30%;
 	}
 	figure.align-right {
 		float: right;
 		margin-right: 0;
+		max-width: 40%;
 	}
 }
 
