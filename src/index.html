@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Xplorer 2019</title>
+	<style>
+		body {
+			max-width: 1280px;
+			margin: 0 auto;
+		}
+		button {
+			padding: .5em 1em;
+		}
+		footer {
+			display: flex;
+			justify-content: space-between;
+			margin: 1rem 0;
+		}
+		footer h1 {
+			font-size: 1rem;
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<canvas style="width:100%; height:auto;"></canvas>
+	<footer>
+		<h1>Xplorer 2019 by Henrique Avila Vianna. <a href="https://github.com/hvianna/Xplorer2019">View on GitHub</a>.</h1>
+		<button id="fs-button">Fullscreen</button>
+	</footer>
+	<script>
+		// emulate basic functionalities provided by the JS1k shim
+
+		var AudioContext = AudioContext || webkitAudioContext,
+		    a = document.getElementsByTagName('canvas')[0],
+		    c = a.getContext('2d');
+
+		document.getElementById('fs-button').addEventListener( 'click', () => {
+			if ( a.requestFullscreen )
+				a.requestFullscreen();
+			else if ( a.webkitRequestFullscreen )
+				a.webkitRequestFullscreen();
+		});
+	</script>
+	<!-- Actual game code is loaded below -->
+	<script src="xplorer2019.js"></script>
+</body>
+</html>
