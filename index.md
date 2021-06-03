@@ -1,3 +1,4 @@
+> ⚠️ **Brave browser** users: if you see only a flashing box below, turn Brave Shields DOWN for this site, so the game can run.
 
 <p align="center">Use <strong>A</strong> & <strong>Z</strong> keys to move ship, <strong>Spacebar</strong> to fire.<br>
 Mind your energy! Fly closer to the ground to recharge. How far can you get?</p>
